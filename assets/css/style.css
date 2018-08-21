@@ -17,10 +17,9 @@ body {
 }
 
 h1 {
-    font-family: 'Carme', sans-serif;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
     margin: 20px 0;
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.75rem;
     color: #757575;
 }
 
@@ -36,9 +35,9 @@ p {
 }
 
 .brand {
-    font-family: 'Carme', sans-serif;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
 	line-height: 50px;
-    font-size: 2rem;
+    font-size: 2.25rem;
     padding: 15px;
     background-color: #4ABDAC;
     color: #fff;
@@ -136,8 +135,14 @@ input[type=text], input[type=email] {
     position: fixed;
     bottom: 0;
     width: 100%;
-    line-height: 60px; /* Vertically center the text there */
+    line-height: 60px;
     color: #f2f2f2;
     background-color: #757575;
     border-top: 8px solid #4ABDAC;text-align: center;
 }
+
+/* Social Media Icons */
+
+.white, .white a {
+    color: #fff;
+  }
